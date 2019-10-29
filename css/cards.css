@@ -1,6 +1,3 @@
-body {
-background: #041221;
-}
 .card {overflow:hidden}
 .card.large {
 height: 600px;
@@ -93,7 +90,7 @@ animation: rotating 2s linear infinite;
 background-color: #222831;
 color: lemonchiffon;
 }
-.footer p, strong
+.footer
 {color: lemonchiffon}
 .footer a:hover
 {color: crimson;}
