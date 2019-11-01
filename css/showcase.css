@@ -340,3 +340,11 @@ body.preloader-site {
 
 .white
 {color:ghostwhite}
+
+.icons {
+  color: white;
+}
+
+.icons:hover {
+  opacity: .5;
+}
