@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sigma CAi - Deportes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/hero.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+    <style>
+    .columns:nth-child(2)
+    {margin-top: -10rem;}
+    </style>
+  </head>
+  <body>
+    <section class="hero is-info is-small">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <p class="title">
+            Deportes
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <!-- Inicio primera columna -->
+      <div class="columns features">
+        <!-- Inicio tarjeta -->
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                </figure>
+                </div>
+                <div class="card-content">
+                <div class="content">
+                    <h4>Barra Oficial Ing UC</h4>
+                    <p>Nuestros deportistas históricamente no han recibido todo el apoyo que merecen en
+                            sus torneos. Por esta razón proponemos la creación de la barra oficial ING UC</p>
+                    <span class="button is-link modal-button" data-target="modal-card1">Detalles</span>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Final tarjeta -->
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4>Olimpiadas 2020</h4>
+                <p>Esta actividad nace en el marco de las Olimpiadas 2020, en la que muchos deportistas chilenos participarán. </p>
+                <span class="button is-link modal-button" data-target="modal-card2">Detalles</span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                </figure>
+                </div>
+                <div class="card-content">
+                <div class="content">
+                    <h4>Deportes para deportistas y no-deportistas </h4>
+                    <p>Organizar torneos esporádicos de deportes que cualquiera podría ganar, sin ser
+                            necesariamente deportista. Esto con el propósito de generar comunidad y pasar un
+                            buen rato.</p>
+                    <span class="button is-link modal-button" data-target="modal-card3">Detalles</span>
+
+                </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="columns features">
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                </figure>
+                </div>
+                <div class="card-content">
+                <div class="content">
+                    <h4>Liga Ingeniería Futbolito</h4>
+                    <p>Organizar una liga donde se puedan inscribir alumnos de toda la universidad, que
+                            se juegue durante los almuerzos en las canchas sintéticas. </p>
+                    <span class="button is-link modal-button" data-target="modal-card4">Detalles</span>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                </figure>
+                </div>
+                <div class="card-content">
+                <div class="content">
+                    <h4>Mini Torneos de E-sports </h4>
+                    <p>El 29 de agosto es el D´ıa Internacional del Gamer. Idealmente ese día o en su
+                            defecto, un día cercano, organizar un gran torneo de E-Sports.</p>
+                            <span class="button is-link modal-button" data-target="modal-card5">Detalles</span>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!--  ===============
+    HERE BE MODALS
+    ===============  -->
+    <!-- 3dFlipVertical card tiny -->
+    <div id="modal-card1" class="modal modal-fx-3dSlit">
+      <div class="modal-background"></div>
+      <div class="modal-content is-tiny">
+        <!-- content -->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Barra Oficial Ing UC</p>
+              </div>
+            </div>
+            <div class="content">
+                    Nuestros deportistas históricamente no han recibido todo el apoyo que merecen en
+                    sus torneos. Por esta razón proponemos la creación de la barra oficial ING UC, donde
+                    el principal enfoque será crear apoyo y motivación entre la comunidad y deportistas.
+
+              <br>
+            </div>
+          </div>
+        </div>
+        <!-- end content -->
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <!-- end tiny modal card -->
+    <!-- 3dFlipVertical card tiny [butterfly] -->
+    <div id="modal-card2" class="modal modal-fx-3dSlit">
+        <div class="modal-background"></div>
+        <div class="modal-content is-tiny">
+            <!-- content -->
+            <div class="card">
+            <div class="card-image">
+                <figure class="image is-4by3">
+                <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="media">
+                <div class="media-content">
+                    <p class="title is-4"> Olimpiadas 2020</p>
+                </div>
+                </div>
+                <div class="content">
+                        Esta actividad nace en el marco de las Olimpiadas 2020, en la que muchos deportistas chilenos participarán. Por esto, daremos los espacios necesarios para proyectar los campeonatos en la escuela y disfrutar de éstos como comunidad.
+
+                <br>
+                </div>
+            </div>
+            </div>
+            <!-- end content -->
+        </div>
+        <div id="modal-card3" class="modal modal-fx-3dSlit">
+                <div class="modal-background"></div>
+                <div class="modal-content is-tiny">
+                    <!-- content -->
+                    <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Deportes para deportistas y no-deportistas</p>
+                        </div>
+                        </div>
+                        <div class="content">
+                                Organizar torneos esporádicos de deportes que cualquiera podría ganar, sin ser
+                                necesariamente deportista. Esto con el propósito de generar comunidad y pasar un
+                                buen rato. Algunos ejemplos son: cara y sello, carecaca, cachipún, carreras de naruto
+                                run o competencias de no pestañear, entre otras.
+
+                        <br>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end content -->
+        </div>
+        <div id="modal-card4" class="modal modal-fx-3dSlit">
+                <div class="modal-background"></div>
+                <div class="modal-content is-tiny">
+                    <!-- content -->
+                    <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Liga Ingeniería Futbolito</p>
+                        </div>
+                        </div>
+                        <div class="content">
+                                Organizar una liga donde se puedan inscribir alumnos de toda la universidad, que
+                                se juegue durante los almuerzos en las canchas sintéticas. Esto sería un espacio para
+                                potenciar el deporte entre los estudiantes.
+                        <br>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end content -->
+        </div>
+        <div id="modal-card5" class="modal modal-fx-3dSlit">
+                <div class="modal-background"></div>
+                <div class="modal-content is-tiny">
+                    <!-- content -->
+                    <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Mini Torneos de E-Sports</p>
+                        </div>
+                        </div>
+                        <div class="content">
+                                El 29 de agosto es el Día Internacional del Gamer. Idealmente ese día o en su
+                                defecto, un día cercano, organizar un gran torneo de E-Sports. Además organizar
+                                mini torneos de E-sports durante el semestre, por ejemplo de SSB o de curvitas.
+
+                        <br>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end content -->
+        </div>
+        <div id="modal-card6" class="modal modal-fx-3dSlit">
+                <div class="modal-background"></div>
+                <div class="modal-content is-tiny">
+                    <!-- content -->
+                    <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Actividades de relajación</p>
+                        </div>
+                        </div>
+                        <div class="content">
+                                Queremos continuar con Bienestar con Huellas, uno de los proyectos que más
+                                rompen la rutina durante días de prueba, al contar con compañía de perros terapeúticos. También crear instancias en las que la comunidad pueda explorar la
+                                música como método para liberar estrés. Se pueden dar distintas situaciones para
+                                lograr que la gente se relacione en un ambiente de distensión dentro del patio de
+                                ingeniería como yoga, masajes, zumba, entre otras.
+                        <br>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end content -->
+        </div>
+        <div id="modal-card7" class="modal modal-fx-3dSlit">
+                <div class="modal-background"></div>
+                <div class="modal-content is-tiny">
+                    <!-- content -->
+                    <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Manual Ing UC</p>
+                        </div>
+                        </div>
+                        <div class="content">
+                                Para ayudar a los estudiantes en su paso por la universidad, lanzaremos un manual
+                                digital con tips y recomendaciones sobre la vida universitaria. Este incluirá consejos
+                                para todos los estudiantes que vivan solos, abarcando temáticas como, organización
+                                de gastos y del hogar. También dar a conocer todas las facilidades que da la universidad, como el CARA, la SAI, la atención psicológica, entre otras.
+                        <br>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end content -->
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    </div>
+    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
+    <script src="../js/wild.js"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        //The first argument are the elements to which the plugin shall be initialized
+        //The second argument has to be at least a empty object or a object with your desired options
+        OverlayScrollbars(document.querySelectorAll("body"), { });
+        });
+        </script>  
+    </body>
+    </html>
+    
