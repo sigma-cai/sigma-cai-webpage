@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sigma CAi - Feminismo y Diversidad Sexual</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/hero.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+    <style>
+    .columns:nth-child(2)
+    {margin-top: -10rem;}
+    </style>
+  </head>
+  <body>
+    <section class="hero is-info is-small">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <p class="title">
+            Feminismo y Diversidad Sexual
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <!-- Inicio primera columna -->
+      <div class="columns features">
+        <!-- Inicio tarjeta -->
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                </figure>
+                </div>
+                <div class="card-content">
+                <div class="content">
+                    <h4>Semana de la Diversidad Sexual</h4>
+                    <p>Es necesario visibilizar las distintas formas en que las personas de nuestra comunidad viven su identidad de género y su orientación sexual, de manera de eliminar
+                        prejuicios y discriminaciones.</p>
+                    <span class="button is-link modal-button" data-target="modal-card1">Detalles</span>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Final tarjeta -->
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4>Día de la mujer</h4>
+                <p>Conmemorar y recordar el por qué este día es de gran relevancia. Queremos
+                    crear un espacio para remecer a las personas, además de solicitar un módulo protegido
+                    durante el día. </p>
+                <span class="button is-link modal-button" data-target="modal-card2">Detalles</span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                </figure>
+                </div>
+                <div class="card-content">
+                <div class="content">
+                    <h4>Talleres de educación sexual </h4>
+                    <p>Independiente de nuestra edad, hablar de sexo sigue siendo un tema que nos
+                        incomoda y por tanto preferimos no hacerlo y quedarnos con dudas.</p>
+                    <span class="button is-link modal-button" data-target="modal-card3">Detalles</span>
+
+                </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="columns features">
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                </figure>
+                </div>
+                <div class="card-content">
+                <div class="content">
+                    <h4>Dale una vuelta</h4>
+                    <p>Cuestionar las cosas no debe pasar únicamente durante festividades o en momentos de gran relevancia. </p>
+                    <span class="button is-link modal-button" data-target="modal-card4">Detalles</span>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                </figure>
+                </div>
+                <div class="card-content">
+                <div class="content">
+                    <h4>Recordando caras </h4>
+                    <p>Es importante ser conscientes de los eventos en nuestra historia, de aquellas personas que marcaron la diferencia en temas de equidad de género y diversidad.</p>
+                            <span class="button is-link modal-button" data-target="modal-card5">Detalles</span>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                </figure>
+                </div>
+                <div class="card-content">
+                <div class="content">
+                    <h4>Capacitaciones sobre violencia de género</h4>
+                    <p>Instruirse en violencia de género es esencial para reconocer situaciones en las que
+                        se ejerce, identificar cómo se manifiesta.</p>
+                            <span class="button is-link modal-button" data-target="modal-card6">Detalles</span>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!--  ===============
+    HERE BE MODALS
+    ===============  -->
+    <!-- 3dFlipVertical card tiny -->
+    <div id="modal-card1" class="modal modal-fx-3dSlit">
+      <div class="modal-background"></div>
+      <div class="modal-content is-tiny">
+        <!-- content -->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Semana de la Diversidad Sexual</p>
+              </div>
+            </div>
+            <div class="content">
+                Es necesario visibilizar las distintas formas en que las personas de nuestra comunidad viven su identidad de género y su orientación sexual, de manera de eliminar
+                prejuicios y discriminaciones. Durante esta semana se realizarán intervenciones en
+                el patio, charlas informativas, foros, y debates, donde se respondan dudas y derriben
+                tabúes.
+                
+
+              <br>
+            </div>
+          </div>
+        </div>
+        <!-- end content -->
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <!-- end tiny modal card -->
+    <!-- 3dFlipVertical card tiny [butterfly] -->
+    <div id="modal-card2" class="modal modal-fx-3dSlit">
+        <div class="modal-background"></div>
+        <div class="modal-content is-tiny">
+            <!-- content -->
+            <div class="card">
+            <div class="card-image">
+                <figure class="image is-4by3">
+                <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="media">
+                <div class="media-content">
+                    <p class="title is-4"> Día de la mujer</p>
+                </div>
+                </div>
+                <div class="content">
+                    Conmemorar y recordar el por qué este día es de gran relevancia. Queremos
+                    crear un espacio para remecer a las personas, además de solicitar un módulo protegido
+                    durante el día. Queremos dar el espacio para que se generen discusiones y reflexiones,
+                    donde además se plantee lo que se hará durante la marcha.
+
+                <br>
+                </div>
+            </div>
+            </div>
+            <!-- end content -->
+        </div>
+        <div id="modal-card3" class="modal modal-fx-3dSlit">
+                <div class="modal-background"></div>
+                <div class="modal-content is-tiny">
+                    <!-- content -->
+                    <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Talleres de educación sexual</p>
+                        </div>
+                        </div>
+                        <div class="content">
+                            Independiente de nuestra edad, hablar de sexo sigue siendo un tema que nos
+                            incomoda y por tanto preferimos no hacerlo y quedarnos con dudas. Es por esto que
+                            planteamos talleres para entender nuestra sexualidad, para tomar mejores decisiones
+                            sobre nuestro cuerpo, y para prevenir situaciones que muchos y muchas no quieren
+                            vivir.
+
+                        <br>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end content -->
+        </div>
+        <div id="modal-card4" class="modal modal-fx-3dSlit">
+                <div class="modal-background"></div>
+                <div class="modal-content is-tiny">
+                    <!-- content -->
+                    <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Dale una vuelta</p>
+                        </div>
+                        </div>
+                        <div class="content">
+                            Cuestionar las cosas no debe pasar únicamente durante festividades o en momentos de gran relevancia. Es por esto que queremos realizar charlas y debates que nos
+                            hagan reflexionar, tocando temas como lo son la adopción homoparental, matrimonio
+                            igualitario, legalización del aborto, entre otras cosas.
+                        <br>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end content -->
+        </div>
+        <div id="modal-card5" class="modal modal-fx-3dSlit">
+                <div class="modal-background"></div>
+                <div class="modal-content is-tiny">
+                    <!-- content -->
+                    <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Recordando caras</p>
+                        </div>
+                        </div>
+                        <div class="content">
+                            Es importante ser conscientes de los eventos en nuestra historia, de aquellas personas que marcaron la diferencia en temas de equidad de género y diversidad. Queremos tener una sección especial en nuestras redes sociales que valore estas instancias
+                            dando una breve descripción de quienes fueron.
+
+                        <br>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end content -->
+        </div>
+        <div id="modal-card6" class="modal modal-fx-3dSlit">
+                <div class="modal-background"></div>
+                <div class="modal-content is-tiny">
+                    <!-- content -->
+                    <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Capacitaciones de violencia de género</p>
+                        </div>
+                        </div>
+                        <div class="content">
+                            Instruirse en violencia de género es esencial para reconocer situaciones en las que
+                            se ejerce, identificar cómo se manifiesta, y saber cómo actuar al respecto, brindando
+                            apoyo y ayuda a las víctimas.
+                        <br>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end content -->
+        </div>
+        <div id="modal-card7" class="modal modal-fx-3dSlit">
+                <div class="modal-background"></div>
+                <div class="modal-content is-tiny">
+                    <!-- content -->
+                    <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Manual Ing UC</p>
+                        </div>
+                        </div>
+                        <div class="content">
+                                Para ayudar a los estudiantes en su paso por la universidad, lanzaremos un manual
+                                digital con tips y recomendaciones sobre la vida universitaria. Este incluirá consejos
+                                para todos los estudiantes que vivan solos, abarcando temáticas como, organización
+                                de gastos y del hogar. También dar a conocer todas las facilidades que da la universidad, como el CARA, la SAI, la atención psicológica, entre otras.
+                        <br>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end content -->
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    </div>
+    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
+    <script src="../js/wild.js"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        //The first argument are the elements to which the plugin shall be initialized
+        //The second argument has to be at least a empty object or a object with your desired options
+        OverlayScrollbars(document.querySelectorAll("body"), { });
+        });
+        </script>  
+    </body>
+    </html>
+    
